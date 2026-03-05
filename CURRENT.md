@@ -31,32 +31,42 @@ Integration roadmap documented based on existing tools.
 **Current**: Build Service Catalog FROM SCRATCH
 
 ### Discovery
-Service Catalog is EMPTY. No categories exist. All tickets unclassified.
+- Service Catalog is EMPTY (no categories)
+- Departments EXIST (can leverage for routing)
 
 ### Status
 - [x] Catalog structure designed (4 critical + 2 secondary)
 - [x] Team assignments mapped
+- [x] Department usage strategy defined
 - [ ] **DAY 1**: Create category structure in EV
-- [ ] **DAY 2**: Build 5 critical catalog items
-- [ ] **DAY 3**: Configure assignment rules
-- [ ] **DAY 4**: Create team views
+- [ ] **DAY 2**: Build 5 critical catalog items (with dept fields)
+- [ ] **DAY 3**: Configure assignment rules (use departments)
+- [ ] **DAY 4**: Create team views (dept-specific)
 - [ ] **DAY 5**: Test & train
 
-See [SERVICE_CATALOG_BUILD.md](./SERVICE_CATALOG_BUILD.md) for step-by-step build instructions.
+See [SERVICE_CATALOG_BUILD.md](./SERVICE_CATALOG_BUILD.md) for build instructions.
+See [DEPARTMENTS_USAGE.md](./DEPARTMENTS_USAGE.md) for department integration.
+
+### Leverage Existing Departments
+- Route tickets by requestor's department
+- Set priority by department (Executive = High)
+- Create department-specific views
+- Report metrics by department
 
 ### Critical 4 (Build These First)
-| Category | Volume | Assigned To |
-|----------|--------|-------------|
-| Quick Fixes (Password) | **Highest** | Helpdesk |
-| Equipment | High | Inventory |
-| Field Services | Medium | Field Techs |
-| Applications (MyAvatar/Munis) | Low-Medium | Enterprise |
+| Category | Volume | Assigned To | Dept Logic |
+|----------|--------|-------------|------------|
+| Quick Fixes (Password) | **Highest** | Helpdesk | Executive=Critical |
+| Equipment | High | Inventory | By location |
+| Field Services | Medium | Field Techs | By department location |
+| Applications | Low-Medium | Enterprise | HR=MyAvatar, Finance=Munis |
 
 ### Result After Week 1
 - 80% of tickets auto-categorized
 - 80% of tickets auto-assigned
+- Department-based priority
 - Teams see only their work
-- Supervisor can view by category
+- Supervisor can view by category AND department
 
 ## Next Steps
 
