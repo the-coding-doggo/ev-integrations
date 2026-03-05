@@ -28,26 +28,35 @@ Integration roadmap documented based on existing tools.
 
 ## Active Implementation
 
-**Current**: Ticket Categories (Practical Design)
+**Current**: Build Service Catalog FROM SCRATCH
+
+### Discovery
+Service Catalog is EMPTY. No categories exist. All tickets unclassified.
 
 ### Status
-- [x] Catalog structure designed based on actual ticket types
+- [x] Catalog structure designed (4 critical + 2 secondary)
 - [x] Team assignments mapped
-- [ ] Create top-level categories in EV
-- [ ] Configure assignment rules
-- [ ] Build high-volume workflows (Password, Equipment)
-- [ ] Create team-specific views
-- [ ] Test with real tickets
+- [ ] **DAY 1**: Create category structure in EV
+- [ ] **DAY 2**: Build 5 critical catalog items
+- [ ] **DAY 3**: Configure assignment rules
+- [ ] **DAY 4**: Create team views
+- [ ] **DAY 5**: Test & train
 
-See [CATEGORY_DESIGN_PRACTICAL.md](./CATEGORY_DESIGN_PRACTICAL.md) for detailed catalog structure.
+See [SERVICE_CATALOG_BUILD.md](./SERVICE_CATALOG_BUILD.md) for step-by-step build instructions.
 
-### Quick Start - Do These First
-1. Password Unlock → Helpdesk
-2. Equipment Issue → Inventory  
-3. Field Services → Field Techs
-4. MyAvatar/Munis → Enterprise
+### Critical 4 (Build These First)
+| Category | Volume | Assigned To |
+|----------|--------|-------------|
+| Quick Fixes (Password) | **Highest** | Helpdesk |
+| Equipment | High | Inventory |
+| Field Services | Medium | Field Techs |
+| Applications (MyAvatar/Munis) | Low-Medium | Enterprise |
 
-These 4 handle 80% of tickets.
+### Result After Week 1
+- 80% of tickets auto-categorized
+- 80% of tickets auto-assigned
+- Teams see only their work
+- Supervisor can view by category
 
 ## Next Steps
 
