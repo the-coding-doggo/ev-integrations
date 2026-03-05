@@ -173,6 +173,18 @@ See [FRONTEND_REPORTING.md](./FRONTEND_REPORTING.md) for dashboard and visualiza
 - **PowerBI**: REST API integration for analytics
 - **Custom JS**: Full REST API access for portals
 
+## REST API Use Cases (Internal)
+
+See [REST_API_USECASES.md](./REST_API_USECASES.md) for platform-native REST API capabilities.
+
+### Quick Summary
+REST APIs within EV enable:
+- **Service Apps**: Interactive buttons that create/update records
+- **Orchestrate**: Backend automation workflows
+- **Self Help**: Knowledge-driven ticket creation
+- **Integration Models**: Scheduled data synchronization
+- **Cross-Module**: EV-to-EV data flow (Observe→SM, Discovery→CMDB)
+
 ## Implementation Notes
 
 ### Native Connectors (Easy)
