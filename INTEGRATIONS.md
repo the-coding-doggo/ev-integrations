@@ -161,6 +161,17 @@
 | Microsoft Intune | Graph API (custom) | Orchestrate | Hard | No |
 | Genesys | REST API (custom) | Orchestrate | Very Hard | No |
 | SharePoint | IFrame | Service Apps | Easy | Yes |
+| **PowerBI** | **REST API** | **Analytics** | **Medium** | **No** |
+| **Custom Frontend** | **REST API** | **External** | **High** | **No** |
+
+## Frontend & Reporting
+
+See [FRONTEND_REPORTING.md](./FRONTEND_REPORTING.md) for dashboard and visualization options.
+
+### Quick Summary
+- **Service Apps**: Codeless dashboards (recommended start)
+- **PowerBI**: REST API integration for analytics
+- **Custom JS**: Full REST API access for portals
 
 ## Implementation Notes
 
@@ -176,6 +187,8 @@
 
 ### Recommended Approach
 1. Start with Phase 1 (AD, Teams, Exchange) for immediate value
-2. Document user requirements and workflows
-3. Build Intune integration using Graph API patterns
-4. Evaluate Genesys need vs. effort (may use Power Automate bridge)
+2. Build Service Apps dashboards for ticket visibility
+3. Add PowerBI for executive reporting
+4. Document user requirements and workflows
+5. Build Intune integration using Graph API patterns
+6. Evaluate Genesys need vs. effort (may use Power Automate bridge)
