@@ -16,6 +16,37 @@ Integration toolkit for EasyVista ITSM platform.
 | EV Orchestrate | IT automation and workflow orchestration |
 | EV Pulse AI | AI-powered assistance across all modules |
 
+## Current Environment
+
+- **Active Directory**: User directory and authentication
+- **Microsoft Intune**: Device management
+- **Genesys**: Phone/call center system
+- **Microsoft 365 Suite**: Teams, Exchange, SharePoint
+
+## Integration Roadmap
+
+### Phase 1: Foundation (Quick Wins)
+
+| Priority | System | Module | Effort | Value |
+|----------|--------|--------|--------|-------|
+| 1 | Active Directory | Service Manager | Medium | High |
+| 2 | Microsoft Teams | Self Help/Service Manager | Easy | High |
+| 3 | Exchange/Outlook | Service Manager | Medium | High |
+
+### Phase 2: Asset Management
+
+| Priority | System | Module | Effort | Value |
+|----------|--------|--------|--------|-------|
+| 4 | Microsoft Intune | Orchestrate/Service Manager | Hard | Medium |
+
+### Phase 3: Call Center
+
+| Priority | System | Module | Effort | Value |
+|----------|--------|--------|--------|-------|
+| 5 | Genesys | Orchestrate/Service Manager | Very Hard | Medium |
+
+See [INTEGRATIONS.md](./INTEGRATIONS.md) for detailed implementation guides.
+
 ## Documentation
 
 - [EasyVista Product Documentation](https://docs.easyvista.com/docs/product-documentation)
