@@ -28,18 +28,26 @@ Integration roadmap documented based on existing tools.
 
 ## Active Implementation
 
-**Current**: Ticket Categories (Service Catalog configuration)
+**Current**: Ticket Categories (Practical Design)
 
-### Tasks
-- [ ] Design catalog structure
-- [ ] Create categories/subcategories
+### Status
+- [x] Catalog structure designed based on actual ticket types
+- [x] Team assignments mapped
+- [ ] Create top-level categories in EV
 - [ ] Configure assignment rules
-- [ ] Update ticket views
-- [ ] Update portal navigation
-- [ ] Test end-to-end
-- [ ] Train users
+- [ ] Build high-volume workflows (Password, Equipment)
+- [ ] Create team-specific views
+- [ ] Test with real tickets
 
-See [CATEGORY_IMPLEMENTATION.md](./CATEGORY_IMPLEMENTATION.md) for detailed steps.
+See [CATEGORY_DESIGN_PRACTICAL.md](./CATEGORY_DESIGN_PRACTICAL.md) for detailed catalog structure.
+
+### Quick Start - Do These First
+1. Password Unlock → Helpdesk
+2. Equipment Issue → Inventory  
+3. Field Services → Field Techs
+4. MyAvatar/Munis → Enterprise
+
+These 4 handle 80% of tickets.
 
 ## Next Steps
 
